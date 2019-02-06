@@ -1,0 +1,434 @@
+@charset "UTF-8";
+/*!
+ * Marp / Marpit Simple theme based on Gaia.
+ *
+ * @theme simple
+ * @author ttyskg
+ */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900|Roboto+Mono:400,700");
+/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
+*/
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #002b36;
+  color: #839496;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #586e75;
+}
+
+/* Solarized Green */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-addition {
+  color: #859900;
+}
+
+/* Solarized Cyan */
+.hljs-number,
+.hljs-string,
+.hljs-meta .hljs-meta-string,
+.hljs-literal,
+.hljs-doctag,
+.hljs-regexp {
+  color: #2aa198;
+}
+
+/* Solarized Blue */
+.hljs-title,
+.hljs-section,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
+  color: #268bd2;
+}
+
+/* Solarized Yellow */
+.hljs-attribute,
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-class .hljs-title,
+.hljs-type {
+  color: #b58900;
+}
+
+/* Solarized Orange */
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-link {
+  color: #cb4b16;
+}
+
+/* Solarized Red */
+.hljs-built_in,
+.hljs-deletion {
+  color: #dc322f;
+}
+
+.hljs-formula {
+  background: #073642;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+svg[data-marp-fitting=svg] {
+  max-height: 580px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5em 0 0 0;
+}
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong {
+  font-weight: inherit;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.9em;
+}
+
+p,
+blockquote {
+  margin: 1em 0 0 0;
+}
+
+ul > li,
+ol > li {
+  margin: 0.3em 0 0 0;
+}
+ul > li > p,
+ol > li > p {
+  margin: 0.6em 0 0 0;
+}
+
+code {
+  display: inline-block;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.8em;
+  letter-spacing: 0;
+  margin: -0.1em 0.15em;
+  padding: 0.1em 0.2em;
+  vertical-align: baseline;
+}
+
+pre {
+  display: block;
+  margin: 1em 0 0 0;
+  min-height: 1em;
+  overflow: visible;
+}
+pre code {
+  box-sizing: border-box;
+  margin: 0;
+  min-width: 100%;
+  padding: 0.5em;
+  font-size: 0.7em;
+}
+pre code svg[data-marp-fitting=svg] {
+  max-height: calc(580px - 1em);
+}
+
+blockquote {
+  margin: 1em 0 0 0;
+  padding: 0 1em;
+  position: relative;
+}
+blockquote::after, blockquote::before {
+  content: "“";
+  display: block;
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  position: absolute;
+}
+blockquote::before {
+  top: 0;
+  left: 0;
+}
+blockquote::after {
+  right: 0;
+  bottom: 0;
+  transform: rotate(180deg);
+}
+blockquote > *:first-child {
+  margin-top: 0;
+}
+
+mark {
+  background: transparent;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 1em 0 0 0;
+}
+table th,
+table td {
+  padding: 0.2em 0.4em;
+  border-width: 1px;
+  border-style: solid;
+}
+
+section {
+  background-image: linear-gradient(135deg, rgba(136, 136, 136, 0), rgba(136, 136, 136, 0.02) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.05));
+  font-size: 35px;
+  font-family: "Lato", "Avenir Next", "Avenir", "Trebuchet MS", "Segoe UI", sans-serif;
+  height: 720px;
+  line-height: 1.35;
+  letter-spacing: 1.25px;
+  padding: 70px;
+  width: 960px;
+  color: #202228;
+  background-color: #fdfcff;
+}
+section > *:first-child,
+section > header:first-child + * {
+  margin-top: 0;
+}
+section a,
+section mark {
+  color: #0288d1;
+}
+section code {
+  background: #4c4e53;
+  color: #fdfcff;
+}
+section h1 strong,
+section h2 strong,
+section h3 strong,
+section h4 strong,
+section h5 strong,
+section h6 strong {
+  color: #0288d1;
+}
+section pre > code {
+  background: #202228;
+}
+section header,
+section footer,
+section section::after,
+section blockquote::before,
+section blockquote::after {
+  color: #4c4e53;
+}
+section table th,
+section table td {
+  border-color: #202228;
+}
+section table thead th {
+  background: #202228;
+  color: #fdfcff;
+}
+section table tbody > tr:nth-child(odd) td,
+section table tbody > tr:nth-child(odd) th {
+  background: rgba(32, 34, 40, 0.1);
+}
+section.invert {
+  color: #fdfcff;
+  background-color: #202228;
+}
+section.invert a,
+section.invert mark {
+  color: #81d4fa;
+}
+section.invert code {
+  background: #d1d0d4;
+  color: #202228;
+}
+section.invert h1 strong,
+section.invert h2 strong,
+section.invert h3 strong,
+section.invert h4 strong,
+section.invert h5 strong,
+section.invert h6 strong {
+  color: #81d4fa;
+}
+section.invert pre > code {
+  background: #fdfcff;
+}
+section.invert header,
+section.invert footer,
+section.invert section::after,
+section.invert blockquote::before,
+section.invert blockquote::after {
+  color: #d1d0d4;
+}
+section.invert table th,
+section.invert table td {
+  border-color: #fdfcff;
+}
+section.invert table thead th {
+  background: #fdfcff;
+  color: #202228;
+}
+section.invert table tbody > tr:nth-child(odd) td,
+section.invert table tbody > tr:nth-child(odd) th {
+  background: rgba(253, 252, 255, 0.1);
+}
+section.gaia {
+  color: #fdfcff;
+  background-color: #0288d1;
+}
+section.gaia a,
+section.gaia mark {
+  color: #81d4fa;
+}
+section.gaia code {
+  background: #cbe5f6;
+  color: #0288d1;
+}
+section.gaia h1 strong,
+section.gaia h2 strong,
+section.gaia h3 strong,
+section.gaia h4 strong,
+section.gaia h5 strong,
+section.gaia h6 strong {
+  color: #81d4fa;
+}
+section.gaia pre > code {
+  background: #fdfcff;
+}
+section.gaia header,
+section.gaia footer,
+section.gaia section::after,
+section.gaia blockquote::before,
+section.gaia blockquote::after {
+  color: #cbe5f6;
+}
+section.gaia table th,
+section.gaia table td {
+  border-color: #fdfcff;
+}
+section.gaia table thead th {
+  background: #fdfcff;
+  color: #0288d1;
+}
+section.gaia table tbody > tr:nth-child(odd) td,
+section.gaia table tbody > tr:nth-child(odd) th {
+  background: rgba(253, 252, 255, 0.1);
+}
+section.lead {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+section.lead h1,
+section.lead h2,
+section.lead h3,
+section.lead h4,
+section.lead h5,
+section.lead h6 {
+  text-align: center;
+}
+section.lead h1 svg[data-marp-fitting=svg],
+section.lead h2 svg[data-marp-fitting=svg],
+section.lead h3 svg[data-marp-fitting=svg],
+section.lead h4 svg[data-marp-fitting=svg],
+section.lead h5 svg[data-marp-fitting=svg],
+section.lead h6 svg[data-marp-fitting=svg] {
+  --preserve-aspect-ratio: xMidYMid meet;
+}
+section.lead p {
+  text-align: center;
+}
+section.lead blockquote > h1,
+section.lead blockquote > h2,
+section.lead blockquote > h3,
+section.lead blockquote > h4,
+section.lead blockquote > h5,
+section.lead blockquote > h6,
+section.lead blockquote > p {
+  text-align: left;
+}
+section.lead blockquote svg[data-marp-fitting=svg]:not([data-marp-fitting-math]) {
+  --preserve-aspect-ratio: xMinYMin meet;
+}
+section.lead ul > li > p,
+section.lead ol > li > p {
+  text-align: left;
+}
+section.lead table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header,
+footer,
+section::after {
+  box-sizing: border-box;
+  font-size: 66%;
+  height: 70px;
+  line-height: 50px;
+  overflow: hidden;
+  padding: 10px 25px;
+  position: absolute;
+}
+
+header {
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+section::after {
+  right: 0;
+  bottom: 0;
+  font-size: 80%;
+}
+
+/*# sourceMappingURL=simple.css.map */
