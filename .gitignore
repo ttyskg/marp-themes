@@ -1,2 +1,5 @@
 # cache file converting scss to css
 *.map
+
+# MarkDown files to apply the themes.
+slides/*
