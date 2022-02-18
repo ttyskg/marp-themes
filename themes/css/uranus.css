@@ -8,28 +8,54 @@
 section {
   color: #202228;
   background-color: #fdfcff;
+  font-size: 16pt;
 }
 
+h1 {
+    font-size: 30pt;
+}
+
+h2 {
+  font-size: 26pt;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+h4 {
+  font-size: 22pt;
+}
+
+h5 {
+  font-size: 20pt;
+}
+
+h6 {
+  font-size: 18pt;
+}
+
+
 table {
-  margin: 20px auto auto;
+  margin: 10px auto auto;
 }
 
 blockquote {
   width: fit-content;
-  margin: 20px auto auto;
+  margin: 10px auto auto;
 }
 
 pre {
   width: fit-content;
-  margin: 20px auto auto;
+  margin: 10px auto auto;
 }
 
 img {
   display: block;
-  margin: 20px auto auto;
+  margin: 10px auto auto;
 }
 
 object {
   display: block;
-  margin: 20px auto auto;
+  margin: 10px auto auto;
 }

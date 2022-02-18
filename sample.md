@@ -17,13 +17,23 @@ Sample slide deck converted from MarkDown by Marp Next.
 
 ## List structures
 
-test text text
+### List
 
 * List
 * List
 * List
   * Sublist
   * Sublist
+
+### Number List
+
+1. first
+1.1. numeric sublist 1-1
+1.2. numeric sublist 1-2
+2. second
+3. third
+3.1. numeric sublist 3-1
+3.2. numeric sublist 3-2
 
 ## Table
 
