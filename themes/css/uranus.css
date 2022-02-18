@@ -1,0 +1,30 @@
+/*!
+ * @theme uranus
+ * @suthor Tatsuya Sakaguchi
+ */
+
+@import 'gaia';
+
+section {
+  color: #202228;
+  background-color: #fdfcff;
+}
+
+table {
+  margin: 20px auto auto;
+}
+
+blockquote {
+  width: fit-content;
+  margin: 20px auto auto;
+}
+
+pre {
+  width: fit-content;
+  margin: 20px auto auto;
+}
+
+img {
+  display: block;
+  margin: 20px auto auto;
+}

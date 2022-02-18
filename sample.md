@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: gaia
+theme: uranus
 paginate: true
 header: 'Header'
 footer: 'Footer'
