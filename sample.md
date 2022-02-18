@@ -80,4 +80,4 @@ $$
 <object type="image/svg+xml" data="img/icon.drawio.svg"> </object>
 
 * You can click the SVG file with hyperlink
-* To enable this function, you should enable `html` option of MARP 
+* To enable this function, you should enable `html` option of MARP
