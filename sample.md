@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: simple
+theme: gaia
 paginate: true
 header: 'Header'
 footer: 'Footer'
@@ -37,7 +37,7 @@ test text text
 
 This is my icon.
 
-![height:250](./img/icon.png)
+![height:250px](./img/icon.png)
 
 Cute owl!
 
@@ -67,3 +67,10 @@ $$
 \frac{\partial \theta}{\partial t}= \frac{\partial}{\partial z}
 \left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]
 $$
+
+## Quote
+
+> Tradition is not the worship of ashes,
+> but the preservation of fire.
+>
+> **Gustav Mahler (Composer)**
