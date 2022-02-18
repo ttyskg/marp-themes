@@ -1,6 +1,6 @@
 /*!
  * @theme uranus
- * @suthor Tatsuya Sakaguchi
+ * @author Tatsuya Sakaguchi
  */
 
 @import 'gaia';
@@ -25,6 +25,11 @@ pre {
 }
 
 img {
+  display: block;
+  margin: 20px auto auto;
+}
+
+object {
   display: block;
   margin: 20px auto auto;
 }
