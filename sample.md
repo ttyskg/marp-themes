@@ -1,28 +1,29 @@
 ---
-
+marp: true
 theme: simple
 paginate: true
 header: 'Header'
 footer: 'Footer'
-
+headingDivider: 2
+math: katex
 ---
+
 <!-- _class: lead -->
 # Sample slide deck
-Sample slide deck converted from MarkDown by Marp Next.   
+
+Sample slide deck converted from MarkDown by Marp Next.
 
 @ttyskg
 
----
-
 ## List structures
-test text text
-* List
-* List
-* List
-  * Sublist
-  * Sublist
 
----
+test text text
+
+* List
+* List
+* List
+  * Sublist
+  * Sublist
 
 ## Table
 
@@ -32,20 +33,18 @@ test text text
 | row2 | item | item | item |
 | row3 | item | item | item |
 
----
-
 ## Figure insert
 
 This is my icon.
 
-![](./img/icon.png)
+![height:250](./img/icon.png)
 
 Cute owl!
 
----
-
 ## Code block
+
 FizzBuzz by Python.
+
 ```python
 def FizzBuzz(n):
     for i in range(n):
@@ -59,14 +58,12 @@ def FizzBuzz(n):
         else:
             print(num)
 ```
----
 
 ## Math block
 
-Marp Next support KaTex format to wirte Math equations.
+Marp Next support KaTex format to write Math equations.
 
 $$
 \frac{\partial \theta}{\partial t}= \frac{\partial}{\partial z}
 \left[ K(\theta) \left (\frac{\partial \psi}{\partial z} + 1 \right) \right]
 $$
-
