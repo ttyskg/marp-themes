@@ -1,0 +1,6 @@
+{
+  "markdown.marp.themes": [
+    "./themes/css/simple.css",
+    "./themes/css/uncover43.css"
+  ]
+}
