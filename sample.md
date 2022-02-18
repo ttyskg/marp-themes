@@ -79,5 +79,6 @@ $$
 
 <object type="image/svg+xml" data="img/icon.drawio.svg"> </object>
 
-* You can click the SVG file with hyperlink
+* You can insert a SVG file with clickable hyperlink
+  * `<object type="image/svg+xml" data="img/icon.drawio.svg"></object>`
 * To enable this function, you should enable `html` option of MARP

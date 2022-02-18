@@ -2,7 +2,6 @@
 
 Custom themes for [Marp Next](https://github.com/marp-team/marp).
 
-
 ## Simple theme
 
 This theme is based on the official Gaia theme. I changed the slide size to 4:3, 
@@ -22,3 +21,5 @@ A theme baded on the official Gaia:
 
 - changed the background color to white.
 - most of the content is centered (figure, table, code block, etc).
+- A SVG image as object element can be inserted.
+  - To use this function, you should enable 'html1 option of marp.
