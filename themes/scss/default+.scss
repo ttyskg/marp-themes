@@ -1,0 +1,80 @@
+/*!
+ * @theme default+
+ * @author ttyskg
+ * @auto-scaling fittingHeader, math, code
+ */
+
+@import 'default';
+
+h1 {
+    font-size: 40pt;
+}
+
+h2 {
+    font-size: 30pt;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+h3 {
+    font-size: 24pt;
+}
+
+header,
+footer {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    height: 10px;
+    font-size: 12pt;
+}
+
+header {
+    top: 5px;
+}
+
+footer {
+    bottom: 20px;
+}
+
+img,
+table,
+blockquote,
+object,
+pre {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+pre {
+    width: fit-content;
+}
+
+th {
+    background-color: darkgray;
+    color: whitesmoke;
+}
+
+.two-columns {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 10px;
+}
+
+.columns21 {
+    display: grid;
+    grid-template-columns: 66% 33%;
+    padding-bottom: 10px;
+}
+
+section {
+    width: 1920;
+    height: 1080;
+    padding: 20px;
+    background-color: #ffffff;
+    font-size: 18pt;
+    word-wrap: break-word;
+}
