@@ -2,6 +2,7 @@
  * @theme default+
  * @author ttyskg
  * @auto-scaling fittingHeader, math, code
+ * @size 16:9 1280px 720px
  */
 
 @import 'default';
@@ -71,8 +72,8 @@ th {
 }
 
 section {
-    width: 1920;
-    height: 1080;
+    width: 1280px;
+    height: 720px;
     padding: 20px;
     background-color: #ffffff;
     font-size: 18pt;

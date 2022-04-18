@@ -1,9 +1,8 @@
 {
   "markdown.marp.themes": [
-    "./themes/css/simple.css",
-    "./themes/css/uncover43.css",
-    "./themes/css/uranus.css",
-    "themes/scss/default+.scss"
+    "themes/simple.scss",
+    "themes/uranus.css",
+    "themes/default+.scss"
 ],
 "cSpell.words": [
     "Sublist"
