@@ -143,7 +143,6 @@ Turn on `Markdown > Marp: Enable HTML` from VS Code setting
 
 ## Two-panes appearance
 
-
 <div class='two-columns'>
   <div>
 
