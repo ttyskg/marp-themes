@@ -8,18 +8,19 @@
 @import 'default';
 
 h1 {
-    font-size: 40pt;
+    font-size: 36pt;
 }
 
 h2 {
-    font-size: 30pt;
+    font-size: 24pt;
+    color: #246;
     position: absolute;
     left: 20px;
     top: 30px;
 }
 
 h3 {
-    font-size: 24pt;
+    font-size: 20pt;
 }
 
 header,
@@ -76,6 +77,6 @@ section {
     height: 720px;
     padding: 20px;
     background-color: #ffffff;
-    font-size: 18pt;
+    font-size: 16pt;
     word-wrap: break-word;
 }
