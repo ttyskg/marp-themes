@@ -1,6 +1,6 @@
 # marp-themes
 
-Custom themes for [Marp Next](https://github.com/marp-team/marp).
+Custom themes for [Marp for VS Code](https://github.com/marp-team/marp-vscode).
 
 ## default+
 
